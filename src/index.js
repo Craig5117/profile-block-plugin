@@ -5,10 +5,6 @@ registerBlockType('plugin/profile-block', {
   title: 'Profile Block',
   icon: 'id',
   category: 'common',
-  // attributes: {
-  //   profileHeading: {type: 'string'},
-  //   profileImage: {type: 'string'},
-  // },
   edit() {
     const blockProps = useBlockProps();
     const TEMPLATE = [
