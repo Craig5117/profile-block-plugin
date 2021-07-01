@@ -5,7 +5,7 @@ registerBlockType('plugin/profile-block', {
   title: 'Profile Block',
   icon: 'id',
   category: 'common',
-  edit() {
+  edit: () => {
     const blockProps = useBlockProps();
     const TEMPLATE = [
       [
@@ -51,7 +51,7 @@ registerBlockType('plugin/profile-block', {
     );
   },
 
-  save() {
+  save: () => {
     const blockProps = useBlockProps.save();
 
     return (
